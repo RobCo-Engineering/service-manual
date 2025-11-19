@@ -4,7 +4,6 @@
 
 - [Pip-Boy 3000 Mk V](#pip-boy-3000-mk-v)
   - [Repositories](#repositories)
-- [Pip-Boy 3000](#pip-boy-3000)
 
 <!---------------------------------------------------------------------------->
 <!---------------------------------------------------------------------------->
@@ -33,16 +32,6 @@ following repositories:
 
   The first apps repo. Archived after TWC released their tool. May stay hold
   reference value.
-
-<p align="right">[ <a href="#index">Index</a> ]</p>
-
-<!---------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------->
-
-## Pip-Boy 3000 <a name="pip-boy-3000"></a>
-
-Staged for a future release!
 
 <p align="right">[ <a href="#index">Index</a> ]</p>
 

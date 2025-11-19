@@ -5,18 +5,17 @@ compatible with your Pip-Boy.
 
 ## Index
 
-- [Pip-Boy 3000 Mk V Audio Conversion](#pip-boy-3000-mk-v-audio-conversion)
+- [Audio Conversion](#pip-boy-3000-mk-v-audio-conversion)
   - [Manually Using FFmpeg](#manually-using-ffmpeg)
-  - [Using the Pip-Boy 3000 Mk V Media Converter](#using-the-pip-boy-3000-mk-v-media-converter)
-- [Pip-Boy 3000 Audio Conversion](#pip-boy-3000-audio-conversion)
+  - [Using the Media Converter](#using-the-pip-boy-3000-mk-v-media-converter)
 
 <!---------------------------------------------------------------------------->
 <!---------------------------------------------------------------------------->
 <!---------------------------------------------------------------------------->
 
-## Pip-Boy 3000 Mk V Audio Conversion <a name="pip-boy-3000-mk-v-audio-conversion"></a>
+## Audio Conversion <a name="pip-boy-3000-mk-v-audio-conversion"></a>
 
-### Using the Pip-Boy 3000 Mk V Media Converter <a name="using-the-pip-boy-3000-mk-v-media-converter"></a>
+### Using the Media Converter <a name="using-the-pip-boy-3000-mk-v-media-converter"></a>
 
 1. Download the latest release of the [Pip-Boy 3000 Mk V Media
    Converter][link-pip-boy-media-converter] from the [releases
@@ -25,7 +24,13 @@ compatible with your Pip-Boy.
 2. Follow the instructions in the [repository][link-pip-boy-media-converter] to
    convert your audio files to the correct format for the Pip-Boy 3000 Mk V.
 
-### Manually Using FFmpeg (Pip-Boy 3000 Mk V) <a name="manually-using-ffmpeg"></a>
+<p align="right">[ <a href="#index">Index</a> ]</p>
+
+<!---------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------->
+
+### Manually Using FFmpeg <a name="manually-using-ffmpeg"></a>
 
 1. Install [FFmpeg][link-ffmpeg]
 
@@ -53,16 +58,6 @@ ffmpeg -i "input.mp3" -ac 1 -ar 16000 -af "atempo=1.25" -sample_fmt s16 -c:a pcm
 ```
 
 See the full list of options here: https://ffmpeg.org/ffmpeg-filters.html
-
-<p align="right">[ <a href="#index">Index</a> ]</p>
-
-<!---------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------->
-
-## Pip-Boy 3000 Audio Conversion <a name="pip-boy-3000-audio-conversion"></a>
-
-Staged for a future release!
 
 <p align="right">[ <a href="#index">Index</a> ]</p>
 
