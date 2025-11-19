@@ -1,0 +1,46 @@
+/* Atomic Age Safety Orange */
+:root {
+  --ifm-color-primary: #c96e32;
+  --ifm-color-primary-dark: #a95728;
+  --ifm-color-primary-darker: #8b4821;
+  --ifm-color-primary-darkest: #5c2f17;
+  --ifm-color-primary-light: #d8844e;
+  --ifm-color-primary-lighter: #e8a77b;
+  --ifm-color-primary-lightest: #f3cfb2;
+  --docusaurus-highlighted-code-line-bg: rgba(40, 20, 0, 0.1);
+}
+
+[data-theme="dark"] {
+  --ifm-color-primary: #ffb27a;
+  --ifm-color-primary-dark: #e59966;
+  --ifm-color-primary-darker: #ca8355;
+  --ifm-color-primary-darkest: #8c563a;
+  --ifm-color-primary-light: #ffcaa4;
+  --ifm-color-primary-lighter: #ffe1cd;
+  --ifm-color-primary-lightest: #fff4eb;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.12);
+}
+
+/* Retro Industrial Mint - teal-green appliance vibe */
+/* 
+:root {
+  --ifm-color-primary: #3a7763;
+  --ifm-color-primary-dark: #2e6151;
+  --ifm-color-primary-darker: #284f43;
+  --ifm-color-primary-darkest: #1e3a32;
+  --ifm-color-primary-light: #5b9a84;
+  --ifm-color-primary-lighter: #80b8a4;
+  --ifm-color-primary-lightest: #bfd9ce;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 20, 15, 0.08);
+}
+
+[data-theme="dark"] {
+  --ifm-color-primary: #7fd3b9;
+  --ifm-color-primary-dark: #6abca4;
+  --ifm-color-primary-darker: #5aa592;
+  --ifm-color-primary-darkest: #3e7364;
+  --ifm-color-primary-light: #9be2cb;
+  --ifm-color-primary-lighter: #b7f0da;
+  --ifm-color-primary-lightest: #dff9ef;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
+} */
