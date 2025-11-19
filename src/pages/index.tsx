@@ -26,8 +26,8 @@ export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      title="RobCo Industries Service Manuals"
+      description="A secure repository of official maintenance guides, service bulletins, and repair schematics for Pip-Boy models and authorized RobCo hardware. Access restricted to certified personnel for diagnostics, component replacement, and firmware support across all field-issued devices."
     >
       <HomepageHeader />
       <main>{/* <HomepageFeatures /> */}</main>
