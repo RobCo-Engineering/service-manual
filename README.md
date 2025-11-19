@@ -17,6 +17,9 @@
 ## Index <a name="index"></a>
 
 - [Community](#community)
+  - [Websites](#websites)
+  - [Discord Servers](#discord-servers)
+  - [Related Projects & Source Material](#related-projects-source-material)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Local Development](#local-development)
@@ -26,7 +29,7 @@
 
 ## Community <a name="community"></a>
 
-### Websites
+### Websites <a name="websites"></a>
 
 - [RobCo Industries][link-robco-industries]
 - [Pip-Boy][link-pip-boy-terminal]
@@ -34,14 +37,14 @@
 
 <!-- If you contribute, self promote here! -->
 
-### Discord
+### Discord Servers <a name="discord-servers"></a>
 
 - [RobCo Industries][link-discord-robco-industries]
 - [Pip-Boy][link-discord-pip-boy]
 
 <!-- Might be cool to list *all* Fallout Discords here in the future. -->
 
-### Related Projects & Source Material
+### Related Projects & Source Material <a name="related-projects-source-material"></a>
 
 - [Espruino][link-espruino]
 - [Pip-Boy][link-pip-boy-repo]
