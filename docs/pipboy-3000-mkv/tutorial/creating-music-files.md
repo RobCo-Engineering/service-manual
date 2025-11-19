@@ -1,12 +1,14 @@
 # Creating Music Files
 
 This tutorial will guide you through the process of creating music files
-compatible with the Pip-Boy 3000 Mk V Media Converter.
+compatible with your Pip-Boy.
 
 ## Index
 
-- ## [Pip-Boy 3000 Mk V Audio Conversion](#pip-boy-3000-mk-v-audio-conversion)
+- [Pip-Boy 3000 Mk V Audio Conversion](#pip-boy-3000-mk-v-audio-conversion)
   - [Manually Using FFmpeg](#manually-using-ffmpeg)
+  - [Using the Pip-Boy 3000 Mk V Media Converter](#using-the-pip-boy-3000-mk-v-media-converter)
+- [Pip-Boy 3000 Audio Conversion](#pip-boy-3000-audio-conversion)
 
 <!---------------------------------------------------------------------------->
 <!---------------------------------------------------------------------------->
@@ -16,12 +18,12 @@ compatible with the Pip-Boy 3000 Mk V Media Converter.
 
 ### Using the Pip-Boy 3000 Mk V Media Converter <a name="using-the-pip-boy-3000-mk-v-media-converter"></a>
 
-1. Download the [Pip-Boy 3000 Mk V Media
+1. Download the latest release of the [Pip-Boy 3000 Mk V Media
    Converter][link-pip-boy-media-converter] from the [releases
    page][link-pip-boy-media-converter-releases].
 
-2. Follow the instructions in the repository to convert your audio files to the
-   correct format for the Pip-Boy 3000 Mk V.
+2. Follow the instructions in the [repository][link-pip-boy-media-converter] to
+   convert your audio files to the correct format for the Pip-Boy 3000 Mk V.
 
 ### Manually Using FFmpeg (Pip-Boy 3000 Mk V) <a name="manually-using-ffmpeg"></a>
 
@@ -50,7 +52,17 @@ ffmpeg -i "input.mp3" -ac 1 -ar 16000 -af "volume=10dB" -sample_fmt s16 -c:a pcm
 ffmpeg -i "input.mp3" -ac 1 -ar 16000 -af "atempo=1.25" -sample_fmt s16 -c:a pcm_s16le -f wav output.wav
 ```
 
-See the full list here: https://ffmpeg.org/ffmpeg-filters.html
+See the full list of options here: https://ffmpeg.org/ffmpeg-filters.html
+
+<p align="right">[ <a href="#index">Index</a> ]</p>
+
+<!---------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------->
+
+## Pip-Boy 3000 Audio Conversion <a name="pip-boy-3000-audio-conversion"></a>
+
+Staged for a future release!
 
 <p align="right">[ <a href="#index">Index</a> ]</p>
 
