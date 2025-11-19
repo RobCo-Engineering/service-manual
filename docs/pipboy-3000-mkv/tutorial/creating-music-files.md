@@ -24,8 +24,6 @@ compatible with your Pip-Boy.
 2. Follow the instructions in the [repository][link-pip-boy-media-converter] to
    convert your audio files to the correct format for the Pip-Boy 3000 Mk V.
 
-<p align="right">[ <a href="#index">Index</a> ]</p>
-
 <!---------------------------------------------------------------------------->
 <!---------------------------------------------------------------------------->
 <!---------------------------------------------------------------------------->
@@ -58,8 +56,6 @@ ffmpeg -i "input.mp3" -ac 1 -ar 16000 -af "atempo=1.25" -sample_fmt s16 -c:a pcm
 ```
 
 See the full list of options here: https://ffmpeg.org/ffmpeg-filters.html
-
-<p align="right">[ <a href="#index">Index</a> ]</p>
 
 <!---------------------------------------------------------------------------->
 <!---------------------------------------------------------------------------->

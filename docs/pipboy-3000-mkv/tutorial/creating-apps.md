@@ -33,8 +33,6 @@ following repositories:
   The first apps repo. Archived after TWC released their tool. May stay hold
   reference value.
 
-<p align="right">[ <a href="#index">Index</a> ]</p>
-
 <!---------------------------------------------------------------------------->
 <!---------------------------------------------------------------------------->
 <!---------------------------------------------------------------------------->
