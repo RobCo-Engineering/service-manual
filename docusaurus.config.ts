@@ -32,10 +32,6 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -46,16 +42,16 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    // image: 'img/docusaurus-social-card.jpg',
     colorMode: {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'RobCo Service Manual',
-      // logo: {
-      //   alt: 'RobCo Logo',
-      //   src: 'img/logo.svg',
-      // },
+      title: 'Service Manual',
+      logo: {
+        alt: 'RobCo Logo',
+        src: 'img/favicon.svg',
+      },
       items: [
         {
           type: 'docSidebar',
@@ -65,48 +61,6 @@ const config: Config = {
         },
       ],
     },
-    
-    // footer: {
-    //   style: 'dark',
-    //   links: [
-    //     {
-    //       title: 'Docs',
-    //       items: [
-    //         {
-    //           label: 'Tutorial',
-    //           to: '/docs',
-    //         },
-    //       ],
-    //     },
-    //     {
-    //       title: 'Community',
-    //       items: [
-    //         {
-    //           label: 'Discord',
-    //           href: 'https://discord.gg/s4XMXg7cq8',
-    //         },
-    //       ],
-    //     },
-    //     {
-    //       title: 'More',
-    //       items: [
-    //         {
-    //           label: 'Pip-Boy 3000 Mk.V Companion App',
-    //           href: 'https://pip-boy.com/3000-mk-v'
-    //         },
-    //         {
-    //           label: 'Log Entries',
-    //           href: 'https://log.robco-industries.org'
-    //         },
-    //         {
-    //           label: 'GitHub',
-    //           href: 'https://github.com/RobCo-Engineering',
-    //         },
-    //       ],
-    //     },
-    //   ],
-    //   copyright: `Copyright © ${new Date().getFullYear()} RobCo Industries. Built with Docusaurus.`,
-    // },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
